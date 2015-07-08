@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaWPF.Shell", "AkkaWPF.Shell\AkkaWPF.Shell.csproj", "{F305DFF4-A5FD-4155-B814-E1F372A922B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaWPF.ModHelloWorld", "AkkaWPF.ModHelloWorld\AkkaWPF.ModHelloWorld.csproj", "{BBD7E85C-FB57-4EE7-9B81-57545EFEF956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaWPF.Shared", "AkkaWPF.Shared\AkkaWPF.Shared.csproj", "{D5AE1E8F-7299-40EC-BDF7-318C3B9E409B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F305DFF4-A5FD-4155-B814-E1F372A922B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F305DFF4-A5FD-4155-B814-E1F372A922B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F305DFF4-A5FD-4155-B814-E1F372A922B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F305DFF4-A5FD-4155-B814-E1F372A922B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD7E85C-FB57-4EE7-9B81-57545EFEF956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD7E85C-FB57-4EE7-9B81-57545EFEF956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD7E85C-FB57-4EE7-9B81-57545EFEF956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD7E85C-FB57-4EE7-9B81-57545EFEF956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5AE1E8F-7299-40EC-BDF7-318C3B9E409B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AE1E8F-7299-40EC-BDF7-318C3B9E409B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AE1E8F-7299-40EC-BDF7-318C3B9E409B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AE1E8F-7299-40EC-BDF7-318C3B9E409B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

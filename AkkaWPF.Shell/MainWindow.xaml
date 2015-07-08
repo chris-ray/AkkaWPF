@@ -1,0 +1,28 @@
+﻿<Window x:Class="AkkaWPF.Shell.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:AkkaWPF.Shell.ViewModels"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:ModuleVM}">
+            <ContentControl Content="{Binding VM}" />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:MainVM2}">
+            <ItemsControl ItemsSource="{Binding Modules}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <ContentControl Content="{Binding}" />
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <ContentControl Content="{Binding VM}" />
+    </Grid>
+</Window>
